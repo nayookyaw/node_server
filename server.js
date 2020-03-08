@@ -8,7 +8,9 @@ app.use(function(req,res,next) {
 });
 
 app.get('/', function (req, res) {
-  res.send('Hello World');
+  var persons_arr = ['张伟', '王伟', '王芳', '李伟', '王秀英', '李秀英', '李娜', '张秀英'];
+  const random_person = persons_arr[Math.floor(Math.random() * persons_arr.length)];
+  res.send(random_person);
 });
 
 var server = app.listen(1996, function () {
