@@ -4,4 +4,8 @@
     
 
 # Overview
-This project is nodejs ( express js ) and export API for Client ( VueJS)
+This project is nodejs ( express js ) and export API for Client ( VueJS) <br>
+
+# Language
+Express
+Restful API
